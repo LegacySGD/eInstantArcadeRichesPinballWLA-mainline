@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <family code="2253" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Arcade Riches Pinball WLA" version="1.0.15" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="N"
+              numberGenerator="RNG"
+              betMultipliers="10,20,50,100,200,300,400,500,700,1000,2000,3000,5000,200000,500000,1000000"
+              spots=""
+              productId="1"
+              gamegroup="eGames"
+              languages="en,en_US,nb_NO,pl_PL,en_NZ,lt_LT,es_PY,tr_TR,de_BE,fr_BE,nl_BE,nl_NL"
+              skbPlatformVersion="1.4.0"
+              merchandisePrize="N"
+              stateful="N">   
+
+            <!-- NT 1kr, 2kr, 3kr, 5kr, 10kr & 20kr -->
+            <paymodel modelid="300-2253-001"  revealId="4714" revealVersionId="4703"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Arcade Riches Pinball WLA : 300-2253-001"
+                      hibethold="25.00" lobethold="25.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2253-001" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2253-001" clienttype="HTML" configcode="PHLP"/>    
+
+            <!-- PLT 1zl, 2zl, 3zl, 5zl, 10zl, 20zl, 30zl & 50zl -->
+            <paymodel modelid="300-2253-002"  revealId="4714" revealVersionId="4703"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Arcade Riches Pinball WLA : 300-2253-002"
+                      hibethold="18.00" lobethold="18.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2253-002" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2253-002" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- KY 10c, 20c, 50c, $1, $2, $3, $5, $10 & $20 -->
+            <paymodel modelid="300-2253-003"  revealId="4714" revealVersionId="4703"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Arcade Riches Pinball WLA : 300-2253-003"
+                      hibethold="15.00" lobethold="15.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2253-003" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2253-003" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- RI $1, $2, $3, $5, $10 & $20 -->
+            <paymodel modelid="300-2253-004"  revealId="4714" revealVersionId="4703"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Arcade Riches Pinball WLA : 300-2253-004"
+                      hibethold="15.00" lobethold="15.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2253-004" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2253-004" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- GA 50c, $1, $2, $3, $5, $10 & $20 -->
+            <paymodel modelid="300-2253-005"  revealId="4714" revealVersionId="4703"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Arcade Riches Pinball WLA : 300-2253-005"
+                      hibethold="22.00" lobethold="22.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2253-005" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2253-005" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- MI 10c, 20c, 50c, $1, $2, $3, $5, $10 & $20 -->
+            <!--<paymodel modelid="300-2253-006"  revealId="4714" revealVersionId="4703"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Arcade Riches Pinball WLA : 300-2253-006"
+                      hibethold="13.00" lobethold="13.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2253-006" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2253-006" clienttype="HTML" configcode="PHLP"/>--> 
+
+            <!-- LNZ 50c -->
+            <paymodel modelid="300-2253-007"  revealId="4714" revealVersionId="4703"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Arcade Riches Pinball WLA : 300-2253-007"
+                      hibethold="41.30" lobethold="41.30"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2253-007" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2253-007" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- LTR 50c, €1, €2 & €5 -->
+            <paymodel modelid="300-2253-008"  revealId="4714" revealVersionId="4703"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Arcade Riches Pinball WLA : 300-2253-008"
+                      hibethold="37.00" lobethold="37.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2253-008" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2253-008" clienttype="HTML" configcode="PHLP"/>  
+
+            <!-- PYR 2000 Gs, 5000 Gs & 10000 Gs -->
+            <!--<paymodel modelid="300-2253-009"  revealId="4903" revealVersionId="4879"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Arcade Riches Pinball WLA : 300-2253-009"
+                      hibethold="30.00" lobethold="30.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2253-009" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2253-009" clienttype="HTML" configcode="PHLP"/>-->  
+
+            <!-- 70% TUR ₺4, ₺7, ₺10, ₺20, ₺30 & ₺50 -->
+            <paymodel modelid="300-2253-010"  revealId="4714" revealVersionId="4703"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Arcade Riches Pinball WLA : 300-2253-010"
+                      hibethold="30.00" lobethold="30.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2253-010" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2253-010" clienttype="HTML" configcode="PHLP"/> 
+
+            <!-- 65% TUR ₺4, ₺7, ₺10, ₺20, ₺30 & ₺50 -->
+            <paymodel modelid="300-2253-011"  revealId="4714" revealVersionId="4703"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Arcade Riches Pinball WLA : 300-2253-011"
+                      hibethold="35.00" lobethold="35.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2253-011" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2253-011" clienttype="HTML" configcode="PHLP"/> 
+
+            <!-- LNB €1, €2, €3, €5 & €10 -->
+            <paymodel modelid="300-2253-012"  revealId="4714" revealVersionId="4703"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Arcade Riches Pinball WLA : 300-2253-012"
+                      hibethold="25.00" lobethold="25.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2253-012" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2253-012" clienttype="HTML" configcode="PHLP"/>  
+
+            <!-- NLO €0.10, €0.50, €1, €2, €3, €5, €10 & €20 -->
+            <paymodel modelid="300-2253-013"  revealId="4714" revealVersionId="4703"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Arcade Riches Pinball WLA : 300-2253-013"
+                      hibethold="15.00" lobethold="15.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2253-013" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2253-013" clienttype="HTML" configcode="PHLP"/>  
+
+            <!-- ZER 10c, 50c, $1, $2, $3, $5, $10 & $20 -->
+            <!--<paymodel modelid="300-2253-099"  revealId="4714" revealVersionId="4703"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Arcade Riches Pinball WLA : 300-2253-099"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2253-099" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2253-099" clienttype="HTML" configcode="PHLP"/>-->
+
+            <denom currencycode="EUR" amount="0.01"/>
+            <denom currencycode="FUN" amount="0.01"/>
+            <denom currencycode="NOK" amount="0.01"/>
+            <denom currencycode="NZD" amount="0.01,0.02"/>
+            <denom currencycode="PLN" amount="0.01,0.05"/>
+            <denom currencycode="PYG" amount="0.01"/>
+            <denom currencycode="TRY" amount="0.01"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+        </game>
+    </family>
